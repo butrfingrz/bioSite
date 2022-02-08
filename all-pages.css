@@ -1,0 +1,150 @@
+/* Andrea Fletcher */
+html{
+    background-color: #ffffff;
+    color: #043A42;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+table{
+    border: 1px solid ;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+h1{
+    background-color: #21344D; 
+    color: #FAD6B2; 
+    text-align: center;
+    font-size: 50px;
+}
+ 
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+/* --------------------------------------------  */
+/* Footer specific */
+footer{
+    color: #FAD6B2;
+    background-color: #565841;
+}
+
+/* --------------------------------------------  */
+/* Header Specific  */
+#page-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    background-image : linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.5)),URL(photos/road-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    padding-top:250px ;
+    position: relative;
+}
+
+#name { 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* --------------------------------------------  */ 
+/* Menu bar specific  */
+#menu-bar{
+    padding-bottom: 200px;
+}
+#menu_bar a{
+    
+    display: block;
+    color: #FAD6B2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menu_bar a:hover{
+    background-color: #21344D;
+}
+#menu_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #565841;
+}
+#menu_bar li{
+    display: inline;
+    float: left;
+}
+/* --------------------------------------------  */
+/* Left and right floats for displaying photos and text */
+
+.left-float{
+    float: left;
+    height:auto;
+    overflow:auto;
+    font-size: 20px;
+
+}
+.right-float{
+    float: right;
+    height:auto;
+    overflow:auto;
+    font-size: 20px;
+}
+
+.right-float h2{
+    text-align: right;
+    
+}
+/* --------------------------------------------  */
+/* Image specific  */
+
+figure {
+    border: thin #FAD6B2 solid;
+    padding: 5px;
+    float:inherit;
+    display: table;
+    margin: 15px;
+}
+
+#bio-img{
+    max-width: 220px;
+}
+
+#right-img{
+    float: right;
+    max-width: 220px;
+    /* top | right | bottom |left*/
+    margin: 0px 15px 5px 5px;
+}
+
+#left-img,#left-img2{
+    float: left;
+    max-width: 220px;
+    /* top | right | bottom |left*/
+    margin: auto;
+    
+   
+}
+/* --------------------------------------------  */
+
+/* Color Theme Swatches in Hex */
+.color-theme-1-hex { background-color: #615D67; color: #FAD6B2; }
+.color-theme-2-hex { background-color: #FAD6B2; }
+.color-theme-3-hex { background-color: #0E2038; color: #FAD6B2;}
+.color-theme-4-hex { background-color: #83D3FD; }
+.color-theme-5-hex { background-color: #565841; color: #FAD6B2; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme-1-rgba { color: rgba(97,93,103, 1); }
+.color-theme-2-rgba { color: rgba(250, 214, 178, 1); }
+.color-theme-3-rgba { color: rgba(14, 32, 56, 1); }
+.color-theme-4-rgba { color: rgba(131, 221, 253, 1); }
+.color-theme-5-rgba { color: rgba(86, 88, 65, 1); }
