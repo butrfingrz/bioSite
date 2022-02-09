@@ -22,14 +22,8 @@ h2{
     font-size: 30px;
 }
 
-p{
+p, footer{
     font-size: 20px;
-}
-/* --------------------------------------------  */
-/* Footer specific */
-footer{
-    color: #FAD6B2;
-    background-color: #565841;
 }
 
 /* --------------------------------------------  */
@@ -54,6 +48,43 @@ footer{
     transform: translate(-50%, -50%);
     color: white;
 }
+/* --------------------------------------------  */
+/* Body Specific  */
+body{
+ height: 100%;
+ display: flex; 
+ flex-direction: column;
+}
+
+hr{
+    width: 100%;
+}
+
+/* --------------------------------------------  */
+/* Footer specific */
+
+footer{
+    background-color: #565841;
+    bottom:0;
+    width: 100%;
+}
+
+footer p{
+    color: #FAD6B2;
+    float:left;
+    padding:5px;
+    padding-left: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
 
 /* --------------------------------------------  */ 
 /* Menu bar specific  */
@@ -85,23 +116,20 @@ footer{
 /* --------------------------------------------  */
 /* Left and right floats for displaying photos and text */
 
-.left-float{
-    float: left;
+.left-float, .right-float{
     height:auto;
     overflow:auto;
     font-size: 20px;
+}
 
+.left-float{
+    float: left;
 }
 .right-float{
     float: right;
-    height:auto;
-    overflow:auto;
-    font-size: 20px;
 }
-
 .right-float h2{
     text-align: right;
-    
 }
 /* --------------------------------------------  */
 /* Image specific  */
@@ -114,20 +142,18 @@ figure {
     margin: 15px;
 }
 
-#bio-img{
+#bio-img,#right-img, #left-img, #left-img2{
     max-width: 220px;
 }
 
 #right-img{
     float: right;
-    max-width: 220px;
     /* top | right | bottom |left*/
     margin: 0px 15px 5px 5px;
 }
 
 #left-img,#left-img2{
     float: left;
-    max-width: 220px;
     /* top | right | bottom |left*/
     margin: auto;
     
