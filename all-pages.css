@@ -26,6 +26,12 @@ p, footer{
     font-size: 20px;
 }
 
+/* Home page specific */
+.home p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
 
 
 /* --------------------------------------------  */
@@ -65,30 +71,34 @@ hr{
 /* --------------------------------------------  */
 /* Footer specific */
 
-.footer{
-    display: flex;
-    flex-direction: column;
-    background-color: #565841;
-    bottom:0;
-    width: 100%;
-}
-
-.footer p{
-    color: #FAD6B2;
-    float:left;
-    padding:5px;
-    padding-left: 10px;
-}
-
 .footer a{
+    display: block;
+    flex-direction: column;
+    color:#FAD6B2;
+    width: 100%;
     text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer li:hover{
+    text-decoration:underline;
     color: white;
 }
 
-.footer a:hover{
-    text-decoration:underline;
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #565841;
+    text-align: center;
 }
+.footer ul li{
+    display: inline-block;
+    padding: 10px;
 
+}
 
 /* --------------------------------------------  */ 
 /* Menu bar specific  */
@@ -154,9 +164,12 @@ figure {
     float:inherit;
     display: table;
 }
-
-#bio-img,#right-img, #left-img, #left-img2{
+#bio-img{
+    max-width: 420px;
+}
+#right-img, #left-img, #left-img2{
     max-width: 220px;
+    min-height: 220px;
 }
 
 #center-img{
