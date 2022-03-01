@@ -74,16 +74,10 @@ hr{
 .footer a{
     display: block;
     flex-direction: column;
-    color:#FAD6B2;
     width: 100%;
     text-decoration: none;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.footer li:hover{
-    text-decoration:underline;
-    color: white;
 }
 
 .footer ul {
@@ -97,7 +91,7 @@ hr{
 .footer ul li{
     display: inline-block;
     padding: 10px;
-
+    color: #FAD6B2;
 }
 
 /* --------------------------------------------  */ 
